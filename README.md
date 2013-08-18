@@ -1,4 +1,4 @@
 anime-framework
 ===============
 
-AngularJS NodeJS IcedCoffeeScript MongoDB Express barebones REST app
+AngularJS/NodeJS/IcedCoffeeScript/MongoDB/Express barebones REST app
