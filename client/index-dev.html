@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en" ng-app="anime">
+<head>
+  <meta charset="utf-8">
+  <title>ANIME Stack</title>
+  <link rel="stylesheet" href="css/client.css"/>
+</head>
+<body>
+  <b>ANIME Stack</b><br>
+  Skeleton project for (A)ngularJS, (N)odeJS, (I)cedCoffeeScript, (M)ongoDB, (E)xpress.<BR/>
+  <ol>
+    <li>ALL server AND client code is (Iced) Coffee Script including Grunt!</li>
+    <li>Running "grunt dev" will watch and compile client coffee scripts.</li>
+    <li>Running "grunt prod" will do merge all coffee scripts to one minified JS file.</li>
+    <li>Running "grunt heroku" will do 'prod' then push to Heroku.</li>
+    <li>REST examples with MongoDB import JSON file, and some other mongo functions.</li>
+  </ol>
+
+  <b>REST API</b> = See /server/server.coffee
+  <ul>
+    <li><a href="/db/reset">/db/reset</a> - Empty mongo collection</li>
+    <li><a href="/db/import">/db/import</a> - Add some data from JSON file to mongo collection</li>
+    <li><a href="/db/list">/db/list</a> - List data in mongo collection</li>
+  </ul>
+
+  <hr/>
+
+  <b>EXAMPLE VIEWS</b>
+
+  <ul class="menu">
+    <li><a href="#/view/reset">/view/reset</a></li>
+    <li><a href="#/view/import">/view/import</a></li>
+    <li><a href="#/view/list">/view/list</a></li>
+  </ul>
+
+  <div ng-view></div>
+
+  <div>Application Version: v<span app-version></span></div>
+
+  <script src="lib/angular.min.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/controllers.js"></script>
+  <script src="js/directives.js"></script>
+  <script src="js/filters.js"></script>
+  <script src="js/services.js"></script>
+</body>
+</html>
