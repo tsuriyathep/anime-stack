@@ -1,6 +1,10 @@
 ANIME Stack
 ===========
 
-AngularJS/NodeJS/IcedCoffeeScript/MongoDB/Express barebones REST stack!  A sample REST app with all these technologies combined.  Unfortunately these technologies are constantly changing, so the most it will be good for is a general reference.
+Do you like Angular, NodeJS, Iced Coffee Script, MongoDB and Express!??  Add to that Grunt and Heroku support.  Well if you happen to like all that, and like all that together, then I have the perfect solution for you!  Introducing the ANIME stack, as opposed to the MEAN stack.  It has all the things I like.  Can some other programmer like all those at the same time, I'm not sure it's possible.  This entire stack will probably quickly obsoleted with months but here is my first contribution to GitHub!  
+
+<B>Why Iced Coffee Script?</B> - It's basically the same as coffeescript but it has super easy support for multithreading such as AWAIT and DEFER.  It's great!
+
+<B>Why Angular?</B> - It's separates visuals into templates and leaves most code out.  It's also useful for SPAs (Single Page Applications) which is my next side project.
 
 <img src="http://t.suriyathep.com/wp-content/uploads/2013/10/ninjagirl_2.png"/>
